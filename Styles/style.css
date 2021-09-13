@@ -1,0 +1,33 @@
+#mainDiv{
+    margin: 15px;
+}
+#titleSection{
+    background-color: grey;
+}
+table, th, td {
+    border:1px solid black;
+  }
+
+#submitDiv{
+    float:right;
+
+}
+#monthlySpendDiv{
+    float: right;
+}
+
+#headerRow {
+    background-color: gray;
+    color: whitesmoke;
+    font-size: large;
+  }
+
+#employeeTable{
+    width: 100%
+}
+.highlight0{
+    background-color: lightgray;
+}
+.highlight1{
+    background-color: rgb(173, 172, 172);
+}

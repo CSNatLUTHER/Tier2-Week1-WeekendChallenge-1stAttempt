@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="Vendors/jquery - 3.6.0 - Production.js"></script>
+    <script src="Scripts/client.js"></script>
+    <title>Tier2-Week1-WeekendChallenge</title>
+</head>
+<body>
+<div id="mainDiv">
+    <div id="titleSection">
+        <br>
+        <h1 id="title">Salary Calculator</h1>
+        <br>
+    </div>
+    <h2>Add Employee</h2>
+    <input type="text" id="fName" placeholder="First Name">
+    <input type="text" id="lName" placeholder="Last Name">
+    <input type="text" id="employeeID" placeholder="ID Number">
+    <input type="text" id="employeeTitle" placeholder="Employee Title">
+    <input type="text" id="annualSalary" placeholder="Annual Salary">
+    <br>
+    <br>
+    <div id='submitDiv'>
+        <button id='submitButton'>Submit</button>
+    </div>
+    <h2 id="employeeList">Employees</h2>
+    <div id="tableDiv">
+        <table id="employeeTable">
+            <tr id="headerRow">
+            <th>First Name</th>
+            <th>Last Name</th> 
+            <th>ID</th>
+            <th>Title</th>
+            <th>Annual Salary</th>
+            <th></th>
+            </tr> 
+        </table>
+    </div>
+    <br>
+    <div id="monthlySpendDiv">
+        <h2 id="monthlySpend">Monthly Spend = $0.00</h2>
+    </div>
+</div>
+</body>
+</html>
