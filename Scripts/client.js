@@ -76,6 +76,12 @@ function onReady(){
             monthlySalarySpend = salarySpend/12;
             $('#monthlySpend').empty()
             $('#monthlySpend').append('Monthly Spend = ' + formatter.format(monthlySalarySpend));
+            if(monthlySalarySpend > 5000){
+                $('#monthlySpend').css('background-color', 'red')
+            }
+            else{
+                $('#monthlySpend').css('background-color','#ffffff00')
+            }
 
         // target the delete button for row created to run deleteRow function
             $("#deleteRecord" + counter).click ( deleteRow );
@@ -91,7 +97,6 @@ function onReady(){
             counter+=1000;
             subCounter = 1
     };
-
 
 // function to delete a row of data
     function deleteRow(rowID){
@@ -116,6 +121,12 @@ function onReady(){
         monthlySalarySpend = salarySpend/12;
         $('#monthlySpend').empty()
         $('#monthlySpend').append('Monthly Spend = ' + formatter.format(monthlySalarySpend));
+        if(monthlySalarySpend > 5000){
+            $('#monthlySpend').css('background-color', 'red')
+        }
+        else{
+            $('#monthlySpend').css('background-color','#ffffff00')
+        }
     // remove deleted row
         el3.empty()
     };
